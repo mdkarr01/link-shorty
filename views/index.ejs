@@ -23,6 +23,7 @@
                     <button type="submit" class="btn btn-success btn-shorten">Shorten</button>
                 </span>
             </div>
+            <div style="color: white; text-align: center; font-size: small;"></div>
         </form>
         <br />
         <div id="shorten_area" class="hide">
@@ -38,10 +39,10 @@
     </div>
     <div class="recents">
         <% posts.forEach(function(post) { %>
-            <p>
-                <%=post.url%>
-            </p>
-            <%}%>
+        <p>
+            <%=post.url%>
+        </p>
+        <%}%>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
